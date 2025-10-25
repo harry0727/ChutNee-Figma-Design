@@ -1,0 +1,16 @@
+/* Mobile first adjustments */
+@media (max-width: 900px) {
+  .container{ padding-left:18px; padding-right:18px }
+  .hero-section{ flex-direction:column; gap:18px; padding-top:28px }
+  .features-grid{ grid-template-columns: 1fr; }
+  .nav-links{ display:none }
+  .brand{ font-size:1.05rem }
+  .footer-inner{ flex-direction:column; gap:10px; text-align:center }
+}
+
+/* Smaller phones */
+@media (max-width: 420px){
+  .device-mock{ width:180px; height:360px }
+  .hero-left h1{ font-size:1.5rem }
+  .nav-inner{ padding:8px 0 }
+}

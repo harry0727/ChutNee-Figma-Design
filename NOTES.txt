@@ -1,0 +1,1 @@
+This archive contains a minimal React scaffold. Update package.json dependency versions if you prefer a different React setup (Vite, Next.js, etc.).
